@@ -26,6 +26,8 @@ class BillingPayment {
       cy.get('#payment-method-buttons-container > .button-1').click()
       cy.get('#payment-info-buttons-container > .button-1').click()
       cy.get('#confirm-order-buttons-container > .button-1').click()
+
+      cy.get('.button-2').click()
        
 
     }
